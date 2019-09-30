@@ -5,12 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.code</groupId>
-    <artifactId>frame-learning</artifactId>
+    <artifactId>parent-frame</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>zk-example</module>
-        <module>springboot-example</module>
+         <!-- Spring Boot 模块 -->
+        <module>spring-boot</module>
+
+        
     </modules>
 
 
