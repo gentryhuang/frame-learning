@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157461f2-ab66-44c7-b256-2025e43a0d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/spring-boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/static/SpringBoot整合MyBatis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-example/springboot-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/boot-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk-example/zk-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,47 +33,131 @@
     <session id="265166841">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="7" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="21" />
-          <entry key="YAML" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="15" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="23" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="276" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="1443" />
+          <entry key="Markdown" value="294" />
+          <entry key="PLAIN_TEXT" value="35" />
           <entry key="Properties" value="26" />
-          <entry key="XML" value="601" />
-          <entry key="YAML" value="130" />
+          <entry key="SQL" value="8" />
+          <entry key="XML" value="986" />
+          <entry key="YAML" value="190" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/mapper/AccountMapper.xml">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/static/SpringBoot整合MyBatis.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="442">
+                <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2.jar!/org/mybatis/spring/annotation/MapperScan.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/annotations/Result.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Javajdk/jdk1.8.0_74/src.zip!/java/lang/annotation/Target.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -111,15 +187,20 @@
         <option value="$PROJECT_DIR$/springboot-example/boot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-example/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/AccountMapper.java" />
-        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/BaseTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/Base.java" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java" />
         <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java" />
+        <option value="$PROJECT_DIR$/spring-boot/boot-mybatis/static/SpringBoot整合MyBatis.md" />
       </list>
     </option>
   </component>
@@ -150,21 +231,60 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="boot-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="boot-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-330" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1926" />
+    <option name="y" value="-321" />
     <option name="width" value="1936" />
     <option name="height" value="1035" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>SecurityJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +325,28 @@
               <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frame-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frame-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frame-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frame-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frame-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -215,27 +356,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frame-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frame-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569864761011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569912560792" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\frame-learning\spring-boot\boot-mybatis\static" />
       <recent name="F:\code\frame-learning\spring-boot\boot-mybatis\src\main\resources" />
     </key>
   </component>
@@ -251,6 +397,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.AccountMapperTest.testFindAll">
+    <configuration name="AccountMapperTest.testAddAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.boot.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.code.boot.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.code.boot.mybatis.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="testAddAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountMapperTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.boot.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.code.boot.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.code.boot.mybatis.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountMapperTest.testUpdateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.boot.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.code.boot.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.code.boot.mybatis.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountMapperTest.testAddAccount" />
+      <item itemvalue="JUnit.AccountMapperTest.testUpdateAccount" />
+      <item itemvalue="JUnit.AccountMapperTest.testFindAll" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountMapperTest.testFindAll" />
+        <item itemvalue="JUnit.AccountMapperTest.testUpdateAccount" />
+        <item itemvalue="JUnit.AccountMapperTest.testAddAccount" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -261,47 +469,121 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569859340924</updated>
-      <workItem from="1569859343033" duration="5089000" />
+      <workItem from="1569859343033" duration="5233000" />
+      <workItem from="1569898194636" duration="9390000" />
     </task>
+    <task id="LOCAL-00001" summary="Springboot 整合 MyBatis">
+      <created>1569864825037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569864825038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AccountMapperTest_testAddAccount - 2019.10.01 at 13h 15m 55s.xml">
+      <configuration name="AccountMapperTest.testAddAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testAddAccount - 2019.10.01 at 13h 16m 42s.xml">
+      <configuration name="AccountMapperTest.testAddAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testAddAccount - 2019.10.01 at 13h 21m 08s.xml">
+      <configuration name="AccountMapperTest.testAddAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testAddAccount - 2019.10.01 at 13h 21m 37s.xml">
+      <configuration name="AccountMapperTest.testAddAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testUpdateAccount - 2019.10.01 at 13h 27m 31s.xml">
+      <configuration name="AccountMapperTest.testUpdateAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testUpdateAccount - 2019.10.01 at 13h 28m 15s.xml">
+      <configuration name="AccountMapperTest.testUpdateAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testFindAll - 2019.10.01 at 13h 47m 29s.xml">
+      <configuration name="AccountMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testFindAll - 2019.10.01 at 13h 53m 38s.xml">
+      <configuration name="AccountMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testFindAll - 2019.10.01 at 13h 57m 19s.xml">
+      <configuration name="AccountMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountMapperTest_testFindAll - 2019.10.01 at 14h 01m 36s.xml">
+      <configuration name="AccountMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5089000" />
+    <option name="totallyTimeSpent" value="14623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-330" width="1936" height="1035" extended-state="6" />
+    <frame x="-1926" y="-321" width="1936" height="1035" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44666666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.27452025" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.29157782" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.44666666" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.29157782" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -309,41 +591,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Springboot 整合 MyBatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Springboot 整合 MyBatis" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zk-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-example/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-example/springboot-example.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zk-example/zk-example.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-example/boot-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zk-example/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-example/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/springboot-example/springboot-example.iml" />
+    <entry file="file://$PROJECT_DIR$/zk-example/zk-example.iml" />
+    <entry file="file://$PROJECT_DIR$/springboot-example/boot-mybatis/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-example/pom.xml" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.2.RELEASE/spring-boot-dependencies-2.1.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -372,57 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -437,24 +644,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/model/AccountDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/mapper/AccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/annotations/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Javajdk/jdk1.8.0_74/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/test/java/com/code/boot/mybatis/dao/AccountMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2.jar!/org/mybatis/spring/annotation/MapperScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/static/mb-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/static/mb-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/v1/dao/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/src/main/java/com/code/boot/mybatis/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/boot-mybatis/static/SpringBoot整合MyBatis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="442">
+            <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

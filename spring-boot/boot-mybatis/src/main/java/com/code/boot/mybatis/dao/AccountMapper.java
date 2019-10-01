@@ -1,7 +1,9 @@
-package com.code.boot.mybatis.v1.dao;
+package com.code.boot.mybatis.dao;
 
-import com.code.boot.mybatis.v1.model.AccountDO;
-import org.apache.ibatis.annotations.Mapper;
+import com.code.boot.mybatis.model.AccountDO;
+import org.apache.ibatis.annotations.*;
+
+import java.util.List;
 
 /**
  * AccountMapper 动态Mapper
@@ -17,17 +19,17 @@ public interface AccountMapper {
      * @param accountDO
      * @return
      */
-    int insert(AccountDO accountDO);
-
+    int insertSelective(AccountDO accountDO);
     /**
      * 根据 PK 查询
+     *
      * @param id
      * @return
      */
     AccountDO get(int id);
-
     /**
      * 修改
+     *
      * @param accountDO
      * @return
      */
@@ -35,8 +37,22 @@ public interface AccountMapper {
 
     /**
      * 删除
+     *
      * @param id
      * @return
      */
     int delete(int id);
+
+    /**
+     * 根据PK查询
+     */
+    @Select("SELECT * FROM  account WHERE id = #{id}")
+    AccountDO findById(int id);
+    /**
+     * 查询所有账号
+     *
+     * @return
+     */
+    @Select("SELECT * FROM  account ")
+    List<AccountDO> findAll();
 }

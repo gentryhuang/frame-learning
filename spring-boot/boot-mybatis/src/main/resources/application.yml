@@ -1,11 +1,16 @@
+
 # 数据源配置
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1/account?useUnicode=true&characterEncoding=utf8&useSSL=true
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/account?useUnicode=true&characterEncoding=utf8&useSSL=true
     username: root
-    password:
+    password: hlb1214
+    # 指定使用数据源类型
+    type: com.alibaba.druid.pool.DruidDataSource
+
 # mybatis 配置
 mybatis:
   mapper-locations: "classpath*:/mapper/**/*Mapper.xml"
   type-aliases-package: com.code.boot.mybatis.v1.model
+
