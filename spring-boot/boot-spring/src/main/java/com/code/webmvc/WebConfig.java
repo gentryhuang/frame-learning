@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
  *
  * 1 由于使用了@EnableWebMvc会导入处理器映射器以及处理器适配器。如果不显示配置视图解析器，默认会使用BeanNameViewResolver。一般我们会显示配置视图解析器
  * 2 这里使用了@ComponentScan注解，启动组件扫描，一般扫描控制器
- * 3 注意在Spring5的时候淘汰了WebMvcConfigurerAdater，而是支持{@WebMvcConfigurer}。这里引入的Spring4
+ * 3 注意在Spring5的时候淘汰了WebMvcConfigurerAdapter，而是支持{@WebMvcConfigurer},这里引入的依赖是Spring4
  *
  * @author shunhua
  * @date 2019-10-19
