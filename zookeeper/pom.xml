@@ -2,19 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>parent-frame</artifactId>
+        <groupId>com.code</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.code</groupId>
-    <artifactId>parent-frame</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.code.zk</groupId>
+    <artifactId>zookeeper</artifactId>
     <version>1.0.0</version>
-    <modules>
-         <!-- Spring Boot 模块 -->
-        <module>spring-boot</module>
-        <module>zookeeper</module>
-
-
-    </modules>
 
 
 </project>

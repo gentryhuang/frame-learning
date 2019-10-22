@@ -16,6 +16,7 @@
     <modules>
         <!-- Spring Boot 整合 Mybatis -->
         <module>boot-mybatis</module>
+        <module>boot-spring</module>
 
     </modules>
 
