@@ -12,6 +12,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
+import javax.servlet.http.HttpServlet;
 import java.util.EnumSet;
 
 /**
@@ -35,7 +36,7 @@ public class Application  {
     @Bean
     @Order(Ordered.HIGHEST_PRECEDENCE)
     public ServletRegistrationBean asyncServletServletRegistrationBean(){
-        ServletRegistrationBean registrationBean =  new ServletRegistrationBean(new AsyncServlet(),"/");
+        ServletRegistrationBean registrationBean =  new ServletRegistrationBean<HttpServlet>(new AsyncServlet(),"/");
         registrationBean.setName("MyAsyncServlet");
         return registrationBean;
     }
