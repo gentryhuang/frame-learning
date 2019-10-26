@@ -18,6 +18,7 @@
         <module>boot-mybatis</module>
         <module>boot-spring</module>
         <module>boot-servlet</module>
+        <module>boot-property</module>
 
     </modules>
 

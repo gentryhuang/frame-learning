@@ -1,0 +1,15 @@
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.code.boot.property.listener.ExtendPropertySourceRunListener
+
+# Event Listeners
+org.springframework.context.ApplicationListener=\
+com.code.boot.property.listener.ExtendPropertySourceEventListener
+
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.code.boot.property.processor.ExtendPropertySourcesEnvironmentPostProcessor  
+
+#ApplicationContextInitializer
+org.springframework.context.ApplicationContextInitializer=\
+com.code.boot.property.initializer.ExtendPropertySourceApplicationContextInitializer
