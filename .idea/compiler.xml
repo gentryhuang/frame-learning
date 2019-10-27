@@ -10,7 +10,7 @@
         <module name="boot-property" />
         <module name="boot-servlet" />
         <module name="boot-spring" />
-        <module name="zookeeper" />
+        <module name="configuration-center" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

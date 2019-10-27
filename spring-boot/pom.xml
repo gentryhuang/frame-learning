@@ -16,8 +16,11 @@
     <modules>
         <!-- Spring Boot 整合 Mybatis -->
         <module>boot-mybatis</module>
+        <!-- Spring 自动配置 -->
         <module>boot-spring</module>
+        <!-- Servlet -->
         <module>boot-servlet</module>
+        <!-- Spring Boot 的属性配置-->
         <module>boot-property</module>
 
     </modules>

@@ -1,22 +1,23 @@
-package com.code.boot.property.listener;
+package com.code.boot.property.processor;
 
 import org.springframework.boot.WebApplicationType;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
- * ExtendPropertySourceRunListenerApplication
+ * EnvironmentPostProcessorApplication
  *
  * @author shunhua
  * @date 2019-10-26
  */
-
-public class ExtendPropertySourceRunListenerApplication {
+@EnableAutoConfiguration
+public class EnvironmentPostProcessorApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context =
-                new SpringApplicationBuilder(ExtendPropertySourceRunListenerApplication.class)
+                new SpringApplicationBuilder(EnvironmentPostProcessorApplication.class)
                         .web(WebApplicationType.NONE)
                         .properties("myproperty=10")
                         .run(args);
@@ -31,5 +32,4 @@ public class ExtendPropertySourceRunListenerApplication {
         });
 
     }
-
 }

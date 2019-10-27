@@ -35,14 +35,13 @@ public class ExtendPropertySourceRunListener implements SpringApplicationRunList
 
     @Override
     public void environmentPrepared(ConfigurableEnvironment environment) {
+
+        // 为环境添加相关配置
+
         MutablePropertySources propertySources = environment.getPropertySources();
-
         Map<String, Object> source = new HashMap<>(2);
-
         source.put("my_key", "hello world");
-
         MapPropertySource mapPropertySource = new MapPropertySource("myName", source);
-
         propertySources.addFirst(mapPropertySource);
 
     }
